@@ -1,0 +1,21 @@
+INPUT
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner a1=new Scanner(System.in);
+        int r;
+        System.out.println("enter radius:");
+        r=a1.nextInt();
+        double result=3.14*3.14*r;
+        System.out.println(result);
+    }
+}
+
+
+
+OUTPUT
+
+enter radius:
+34
+335.2264
